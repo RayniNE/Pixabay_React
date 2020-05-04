@@ -31,7 +31,7 @@ const Formulario = ({setBusqueda}) => {
                     <input
                         type="text"
                         className="form-control form-control-lg"
-                        placeholder="Busca una imagen, ej: Fútbol"
+                        placeholder="Busca una imágen, ej: Fútbol"
                         onChange={e => setTermino(e.target.value)}
                     />
 
